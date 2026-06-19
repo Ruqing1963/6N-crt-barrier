@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Designing Anti-Tautological Probes on the 6N Skeleton: A Negative Case Study with Elliptic-Curve Ranks and the CRT Information Barrier"
+abstract: >-
+  A methodological note in the 6N Arithmetic Geodynamics series. Within the
+  heuristic 6N framework (primes greater than 3 lie on the residue classes
+  6N±1), it tests whether the 6N wing of a prime p controls the Mordell-Weil
+  rank of the elliptic curve E_p: y^2 = x^3 - p. Using certified true ranks for
+  1116 curves with p < 10^4 (SageMath) and a three-layer falsification analysis,
+  it finds no wing control of rank (Cohen's d ~ 0.02 throughout; shuffle
+  p = 0.913). Rank is organised by the root number (p mod 24); the 6N wing
+  (mod 6) is absorbed via the Chinese Remainder Theorem. The contribution is the
+  falsification discipline and an honest negative result, not a new theorem.
+type: software
+authors:
+  - family-names: Chen
+    given-names: Ruqing
+    affiliation: "GUT Geoservice Inc., Montréal"
+    email: ruqing@hotmail.com
+keywords:
+  - 6N skeleton
+  - elliptic curve rank
+  - root number
+  - parity conjecture
+  - Chinese Remainder Theorem
+  - methodology
+  - falsification
+  - negative result
+license: MIT
+repository-code: "https://github.com/Ruqing1963/6N-crt-barrier"
+year: 2026
+references:
+  - type: article
+    title: "Arithmetic Geodynamics on the 6N Skeleton, Part XXXVIII: The Dual Membrane and Korselt Colour-Blindness in Eisenstein Carmichael Ideals"
+    authors:
+      - family-names: Chen
+        given-names: Ruqing
+    year: 2026
+    doi: 10.5281/zenodo.20617161
+  - type: article
+    title: "Arithmetic Geodynamics on the 6N Skeleton, Part XXXVI: The Carmichael Collapse"
+    authors:
+      - family-names: Chen
+        given-names: Ruqing
+    year: 2026
+    doi: 10.5281/zenodo.20611583
+  - type: article
+    title: "Arithmetic Geodynamics on the 6N Skeleton: Unified Review, Volumes I-III"
+    authors:
+      - family-names: Chen
+        given-names: Ruqing
+    year: 2026
+    doi: 10.5281/zenodo.20613425
